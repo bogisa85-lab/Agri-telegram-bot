@@ -1,1 +1,0 @@
-dodajem main.py
