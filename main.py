@@ -1,8 +1,4 @@
-Odlično. 👍
-
-Sada u `main.py` nalepi **samo ovo**, od prve do poslednje linije:
-
-```python
+python
 import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
