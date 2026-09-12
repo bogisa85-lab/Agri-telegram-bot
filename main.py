@@ -1,10 +1,3 @@
-Pošto još nemamo potvrđen izvor stvarnih cena, **nemoj sada lepiti kod koji tvrdi da daje live CBOT cene**. Završićemo sa istom greškom kao malopre.
-
-Umesto toga, evo **kompletnog `main.py`** koji radi kao Agri Signal bot, sa komandama za pšenicu, kukuruz, soju, signale i izveštaj. Kasnije samo zamenimo funkciju koja vraća podatke kada pronađemo stabilan izvor cena.
-
-**Obriši ceo `main.py` i nalepi ovo:**
-
-```python
 import os
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
